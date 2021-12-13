@@ -1,0 +1,30 @@
+Le jeu Club Penguin Thin Ice se joue sur cinq niveaux:
+
+	- Le premier comporte seulement de la glace fine, que le pingoin peut 
+	marcher dessus et se brise au premier passage
+	
+	- Le deuxième comporte également de la glace dure, que le pingoin peut 
+	marcher dessus et se brise au deuxième passage dessus
+	
+	- Le troisième comporte une brique qui peut être déplacé dans les 4 
+	directions et qui doit être placé sur la case 'C' afin de pouvoir finir
+	finir le niveau en parcourant toutes les cases du tableau, également une tondeuse
+	qui brise toute la glace sur son passage jusqu'à s'arréter contre un mur 
+	La case Q comporte une potion qui donne un certain nombre de cases que le joueur 
+	peut parcourir sans briser la glace 
+	
+	- Le quatrième comporte un tunnel qui permet au joueur d'accéder à une autre partie 
+	du plateau de jeu 
+
+	- Le cinquième niveau comporte des ennemis qui se déplacent et qu'il faut éviter au risque 
+	de devoir recommencer le niveau en entier . L'ennemi peut se déplacer sur la glace et sur l'eau 
+
+	Les touches z et 8 permettent d'aller vers le haut, q et 4 d'aller vers la gauche, d et 6 vers la 
+	droite, 2 et s vers le bas 
+
+	Pour quitter le jeu à tout moment, cliquez sur la touche p
+
+        Le calcul du score se fait de la façon suivante : 20 points pour une glace épaisse brisée, 40 points pour une glace fine brisée. A la fin de la partie, des points sont ajouté en fonction du temps mis pour finir le niveau. Donc plus le joueur finit le niveau rapidement plus il marque de points. 
+        Dans le cas d'un GameOver, le joueur peut soit revenir au menu soit recommencer le niveau où il se trouve.
+
+        Toutes les cases du plateau de jeu doivent être transformées en eau pour valider le niveau.
